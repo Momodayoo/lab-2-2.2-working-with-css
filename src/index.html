@@ -27,30 +27,25 @@
         background-color: red;
       }
      .my-children-are-styled > p {
-        background-color: red;
+        background-color: blue;
       }
 
       /* II. Box model and common properties */
       .box{
         margin: 4px;
-        padding: 2px;
-        border: 10px groove rgb(217, 141, 28);
+        padding: 10px 5px 5px 2px;
+        border: 10px groove greenyellow;
         outline: 10px dotted green;
-        border-radius: 50% 50%;
-        height: 50%; width: 50px;
-        box-sizing: border-box:
+        border-radius: 50%;                            
+        height: 250px; width: 250px;
+        text-overflow: clip;
+        text-align: justify;
+        color:black;
       }
-      .box2{
-        margin: 4px;
-        padding: 2px;
-        border: 1px solid rgb(28, 56, 217);
-        border-radius: 10px 10px;
-        height: 10%; width: 3%;
-      }
-      body {
+      .box {
         background-image: url(./img1.png);
         background-size: contain;
-        background-repeat:repae;
+        background-repeat:repeat;
         background-position: to center;
       }
       /* III. Position */
@@ -152,7 +147,7 @@
     <article>
       <h2>II. Box model and common properties</h2>
       <div class="box">I'm the first box.</div>
-      <div class="box2">
+      <div class="box">
         I'm second and I have a lot of content. In publishing and graphic
         design, Lorem ipsum is a placeholder text commonly used to demonstrate
         the visual form of a document or a typeface without relying on
